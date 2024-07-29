@@ -11,7 +11,7 @@ app.get('/', (req,res) =>{
     res.render('index');
 });
 
-app.get('/index', (req,response) =>{
+app.get('/index1', (req,response) =>{
     let url = "https://en.wikipedia.org/w/api.php"
     let params = {
         action: "opensearch",
